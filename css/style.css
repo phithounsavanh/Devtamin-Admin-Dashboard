@@ -1,0 +1,175 @@
+@font-face {
+  font-family: Pacifico;
+  src: url("/font/Pacifico-Regular.ttf");
+}
+
+body {
+  background-color: #eff3f9;
+}
+
+.navbar {
+  box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);
+}
+.navbar-brand {
+  font-family: Pacifico;
+}
+
+.bg-nav {
+  background: #007bff;
+  background: linear-gradient(to right, #0062e6, #33aeff);
+}
+
+.wrapper {
+  margin-top: 3.5rem;
+}
+
+.nav-link {
+  color: white;
+  font-weight: 400;
+}
+
+.nav-link.active {
+  background: rgba(144, 150, 158, 0.5);
+  color: #33aeff;
+}
+
+.nav-link:hover {
+  background: rgba(144, 150, 158, 0.5);
+  color: #33aeff;
+}
+
+.nav-icon {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.sidebar {
+  height: 100%;
+  visibility: hidden;
+  width: 0rem;
+  background-color: rgb(128, 128, 128);
+  z-index: 2000;
+  box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.btn-menu-toggler {
+  color: rgba(255, 255, 255, 0.5);
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.25rem;
+}
+
+.content {
+  margin-left: 0rem;
+  width: 100vh;
+  width: 100%;
+}
+
+.sidebar.active {
+  width: 14rem;
+  visibility: visible;
+  transition: 0.2s all ease-in;
+  white-space: nowrap;
+}
+
+.sidebar.active .navbar-nav .nav-item .text {
+  visibility: visible;
+  display: inline;
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    visibility: visible;
+    width: 3.5rem;
+  }
+  .nav-link .text {
+    visibility: hidden;
+    display: none;
+  }
+  .content {
+    padding-left: 3.5rem;
+  }
+  .card-img-top {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+  }
+}
+
+/* card image  */
+
+/* login & signup */
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: #007bff;
+  background: linear-gradient(to right, #0062e6, #33aeff);
+}
+
+.card-login {
+  border: 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-login .card-title {
+  color: #007bff;
+  font-family: Pacifico;
+  margin-bottom: 2rem;
+  font-weight: lighter;
+  font-size: 2.5rem;
+}
+
+.card-login .card-body {
+  padding: 2rem;
+}
+
+.form-login .btn {
+  font-size: 80%;
+  letter-spacing: 0.1rem;
+}
+
+.layoutSidenav {
+  display: flex;
+}
+
+.layoutSidenav_nav {
+  width: 555px;
+  height: 100vh;
+}
+
+.layoutSidenav_content {
+  padding: 50px;
+  top: 56px;
+}
+
+.bg-main-color {
+  background-color: #242e42;
+  color: white;
+}
+
+.btn {
+  border-radius: 5rem;
+}
+
+.box-btn-add {
+  position: absolute;
+  right: 1rem;
+  top: 4.85rem;
+}
+
+.btn-circle {
+  width: 50px;
+  height: 50px;
+  padding: 7px 10px;
+  border-radius: 25px;
+  line-height: 3.5;
+  font-size: 10px;
+  text-align: center;
+}
