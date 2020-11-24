@@ -4,13 +4,19 @@ Devtamin Admin Dashboard is a dashboard theme. The theme is created from various
 
 ## Theme Features
 
-Theme include many useful pages such singup, dashboard, point-of-sale, product, sale, user, category and so on.
+The theme includes many useful pages such as singup, dashboard, point-of-sale, product, sale, user, category, and so on.
 
 Singup Page
 
+![alt tag](https://raw.githubusercontent.com/phithounsavanh/Devtamin-Admin-Dashboard/main/readme/signup.JPG)
+
 Dashboard Page
 
+![alt tag](https://raw.githubusercontent.com/phithounsavanh/Devtamin-Admin-Dashboard/main/readme/dashboard.JPG)
+
 Point-of-Sale Page
+
+![alt tag](https://raw.githubusercontent.com/phithounsavanh/Devtamin-Admin-Dashboard/main/readme/pos.JPG)
 
 ## The Purpose of developement
 
